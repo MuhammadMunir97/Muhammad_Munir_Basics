@@ -42,5 +42,10 @@ public class BasicsTest{
         int[] arr4 = {1,2,4, -1,-2,-4,5,22};
         int[] arr5 = test.MaxMinAvg(arr4);
         System.out.println("Max is: " + arr5[0] + " , Min is:" + arr5[1] + " , Avg is: " + arr5[2]);
+        // part 12
+        System.out.println("Part 12: ");
+        int[] arr6 = {1,2,3,4};
+        test.shiftValue(arr6);
+        System.out.println("arr[0] is: " + arr6[0] + " , arr[1] is:" + arr6[1] + " , arr[2] is: " + arr6[2] + " , arr[3] is: " + arr6[3]);
     }
 }

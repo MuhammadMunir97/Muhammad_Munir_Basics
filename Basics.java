@@ -82,7 +82,12 @@ public class Basics{
         newArr[2] /= Arr.length;
         return newArr;
     }
-
+    public void shiftValue (int Arr []){
+        for (int i=1;i<Arr.length;i++){
+           Arr[i-1]= Arr[i];
+        }
+        Arr[Arr.length -1] = 0;
+    }    
 
 
 }
