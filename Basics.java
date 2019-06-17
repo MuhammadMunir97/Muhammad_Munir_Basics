@@ -18,7 +18,7 @@ public class Basics{
         }
     }
     public void printArr(int Arr []){
-        int sum = 0;
+ 
         for (int i=0;i< Arr.length;i++){
             System.out.println(Arr[i]);
         }
